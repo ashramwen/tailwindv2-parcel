@@ -1,14 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <link rel="stylesheet" href="assets/css/index.css" />
-        <title>Dunder Mifflin Paper Company</title>
-    </head>
-    <body class="font-sans">
-        <include src="partials/header.html"></include>
-        <script src="assets/js/index.js"></script>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- <link href="assets/css/splide-core.min.css" rel="stylesheet" /> -->
+    <link href="assets/css/splide.min.css" rel="stylesheet" />
+    <link href="assets/css/tailwind.css" rel="stylesheet" />
+    <link href="assets/css/styles.css" rel="stylesheet" />
+    <script src="assets/js/splide.min.js"></script>
+    <title>小樹購</title>
+  </head>
+  <body class="box-content">
+    <include src="partials/header.html"></include>
+
+    <div class="splide">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <a href="http://google.com">
+              <div class="h-full">
+                <div>貓咪卯毛咪毛貓咪・週年慶</div>
+                <div>低敏無穀挑嘴全年齡貓糧1kg</div>
+                <button>獨家售賣・早鳥限定優惠</button>
+              </div>
+            </a>
+          </li>
+          <li class="splide__slide">Slide 02</li>
+          <li class="splide__slide">Slide 03</li>
+          <li class="splide__slide">Slide 04</li>
+          <li class="splide__slide">Slide 05</li>
+          <li class="splide__slide">Slide 06</li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="assets/js/index.js"></script>
+  </body>
 </html>
